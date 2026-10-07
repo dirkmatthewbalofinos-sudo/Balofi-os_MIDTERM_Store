@@ -14,7 +14,7 @@ namespace Balofinos_Midterm_Store.Models
 
         [Required]
         [Column(TypeName = "decimal(18,2)")]
-        [Range(0.01, 10000.00, ErrorMessage = "Price must be greater than zero.")]
+        [Range(0.01, 1000000.00, ErrorMessage = "Price must be greater than zero.")]
         public decimal Price { get; set; }
 
         [Required(ErrorMessage = "Category is required.")]

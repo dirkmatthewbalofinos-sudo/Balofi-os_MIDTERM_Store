@@ -82,6 +82,7 @@ namespace Balofinos_Midterm_Store.Controllers
         }
 
         
+        
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
